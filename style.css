@@ -105,6 +105,13 @@ h2 {
   font-size: var(--fs-600);
 }
 
+.card_1,
+.card_2,
+.card_3 {
+  width: min(350px, 100%);
+  margin: 0 auto;
+}
+
 /* card 1 */
 .card_1 {
   background-color: white;
@@ -129,6 +136,42 @@ h2 {
 .card_2 {
   background-color: var(--clr-primary-100);
   padding: 1em;
+}
+
+.card_2 a {
+  display: block;
+  background-color: var(--clr-primary-200);
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 1.5em auto 0.5em auto;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.75em 0 0.75em 0;
+  font-size: var(--fs-500);
+}
+
+.card_2 > p {
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-500);
+}
+
+.card_wrapper {
+  display: flex;
+  padding-bottom: 0.5em;
+  align-items: center;
+}
+
+.card_wrapper > p {
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-500);
+}
+
+.card_wrapper > span {
+  font-size: var(--fs-800);
+  color: white;
+  font-weight: var(--fw-semi-bold);
+  padding-right: 0.5em;
 }
 
 h3 {
